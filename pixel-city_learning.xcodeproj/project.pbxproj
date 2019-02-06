@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1355DADE20A5A5CC00B9742B /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355DADD20A5A5CC00B9742B /* DroppablePin.swift */; };
+		1355DAE020A5E99C00B9742B /* PhotoCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355DADF20A5E99C00B9742B /* PhotoCC.swift */; };
+		135CBE0820A6BABB00D5225D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CBE0720A6BABB00D5225D /* Constants.swift */; };
+		135CBE0A20A7F84700D5225D /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CBE0920A7F84700D5225D /* PopVC.swift */; };
+		13AE878A20A4827000F9BCA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE878920A4827000F9BCA0 /* AppDelegate.swift */; };
+		13AE878C20A4827000F9BCA0 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE878B20A4827000F9BCA0 /* MapVC.swift */; };
+		13AE878F20A4827000F9BCA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AE878D20A4827000F9BCA0 /* Main.storyboard */; };
+		13AE879120A4827000F9BCA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AE879020A4827000F9BCA0 /* Assets.xcassets */; };
+		13AE879420A4827000F9BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AE879220A4827000F9BCA0 /* LaunchScreen.storyboard */; };
+		2DC216524A2D5EB7E2E968E5 /* Pods_pixel_city_learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C74E7F8A96CDE0ADE32F28 /* Pods_pixel_city_learning.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1355DADD20A5A5CC00B9742B /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		1355DADF20A5E99C00B9742B /* PhotoCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCC.swift; sourceTree = "<group>"; };
+		135CBE0720A6BABB00D5225D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		135CBE0920A7F84700D5225D /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		13AE878620A4827000F9BCA0 /* pixel-city_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixel-city_learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AE878920A4827000F9BCA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13AE878B20A4827000F9BCA0 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		13AE878E20A4827000F9BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13AE879020A4827000F9BCA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13AE879320A4827000F9BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13AE879520A4827000F9BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F72FE9F66CC88E333F9A99 /* Pods-pixel-city_learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city_learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city_learning/Pods-pixel-city_learning.debug.xcconfig"; sourceTree = "<group>"; };
+		A914118BE8239A69E220BBAC /* Pods-pixel-city_learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city_learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city_learning/Pods-pixel-city_learning.release.xcconfig"; sourceTree = "<group>"; };
+		B6C74E7F8A96CDE0ADE32F28 /* Pods_pixel_city_learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixel_city_learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13AE878320A4827000F9BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC216524A2D5EB7E2E968E5 /* Pods_pixel_city_learning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AE877D20A4827000F9BCA0 = {
+			isa = PBXGroup;
+			children = (
+				13AE878820A4827000F9BCA0 /* pixel-city_learning */,
+				13AE878720A4827000F9BCA0 /* Products */,
+				C70514716DB91214051FBC60 /* Pods */,
+				40B1C1CB6F51F6939C7888A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13AE878720A4827000F9BCA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13AE878620A4827000F9BCA0 /* pixel-city_learning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13AE878820A4827000F9BCA0 /* pixel-city_learning */ = {
+			isa = PBXGroup;
+			children = (
+				13AE879F20A4829800F9BCA0 /* Extensions */,
+				13AE879E20A4829300F9BCA0 /* Utilities */,
+				13AE879D20A4828E00F9BCA0 /* Controller */,
+				13AE879C20A4828800F9BCA0 /* View */,
+				13AE879B20A4828000F9BCA0 /* Model */,
+				13AE878920A4827000F9BCA0 /* AppDelegate.swift */,
+				13AE879020A4827000F9BCA0 /* Assets.xcassets */,
+				13AE879220A4827000F9BCA0 /* LaunchScreen.storyboard */,
+				13AE879520A4827000F9BCA0 /* Info.plist */,
+			);
+			path = "pixel-city_learning";
+			sourceTree = "<group>";
+		};
+		13AE879B20A4828000F9BCA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AE879C20A4828800F9BCA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13AE878D20A4827000F9BCA0 /* Main.storyboard */,
+				1355DADF20A5E99C00B9742B /* PhotoCC.swift */,
+				1355DADD20A5A5CC00B9742B /* DroppablePin.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13AE879D20A4828E00F9BCA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13AE878B20A4827000F9BCA0 /* MapVC.swift */,
+				135CBE0920A7F84700D5225D /* PopVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13AE879E20A4829300F9BCA0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				135CBE0720A6BABB00D5225D /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		13AE879F20A4829800F9BCA0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40B1C1CB6F51F6939C7888A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C74E7F8A96CDE0ADE32F28 /* Pods_pixel_city_learning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C70514716DB91214051FBC60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F72FE9F66CC88E333F9A99 /* Pods-pixel-city_learning.debug.xcconfig */,
+				A914118BE8239A69E220BBAC /* Pods-pixel-city_learning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13AE878520A4827000F9BCA0 /* pixel-city_learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AE879820A4827000F9BCA0 /* Build configuration list for PBXNativeTarget "pixel-city_learning" */;
+			buildPhases = (
+				60E56A14AA365EEF34A00434 /* [CP] Check Pods Manifest.lock */,
+				13AE878220A4827000F9BCA0 /* Sources */,
+				13AE878320A4827000F9BCA0 /* Frameworks */,
+				13AE878420A4827000F9BCA0 /* Resources */,
+				58C662EE66CE4FD8A0F5E5B9 /* [CP] Embed Pods Frameworks */,
+				50D45FFE181B051C1226F6EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pixel-city_learning";
+			productName = "pixel-city_learning";
+			productReference = 13AE878620A4827000F9BCA0 /* pixel-city_learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13AE877E20A4827000F9BCA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Chuck;
+				TargetAttributes = {
+					13AE878520A4827000F9BCA0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13AE878120A4827000F9BCA0 /* Build configuration list for PBXProject "pixel-city_learning" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13AE877D20A4827000F9BCA0;
+			productRefGroup = 13AE878720A4827000F9BCA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13AE878520A4827000F9BCA0 /* pixel-city_learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13AE878420A4827000F9BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AE879420A4827000F9BCA0 /* LaunchScreen.storyboard in Resources */,
+				13AE879120A4827000F9BCA0 /* Assets.xcassets in Resources */,
+				13AE878F20A4827000F9BCA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D45FFE181B051C1226F6EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixel-city_learning/Pods-pixel-city_learning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C662EE66CE4FD8A0F5E5B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pixel-city_learning/Pods-pixel-city_learning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixel-city_learning/Pods-pixel-city_learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E56A14AA365EEF34A00434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pixel-city_learning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13AE878220A4827000F9BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135CBE0A20A7F84700D5225D /* PopVC.swift in Sources */,
+				135CBE0820A6BABB00D5225D /* Constants.swift in Sources */,
+				1355DAE020A5E99C00B9742B /* PhotoCC.swift in Sources */,
+				13AE878C20A4827000F9BCA0 /* MapVC.swift in Sources */,
+				1355DADE20A5A5CC00B9742B /* DroppablePin.swift in Sources */,
+				13AE878A20A4827000F9BCA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13AE878D20A4827000F9BCA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AE878E20A4827000F9BCA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13AE879220A4827000F9BCA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13AE879320A4827000F9BCA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13AE879620A4827000F9BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13AE879720A4827000F9BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13AE879920A4827000F9BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F72FE9F66CC88E333F9A99 /* Pods-pixel-city_learning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BCB2G5LZ6;
+				INFOPLIST_FILE = "pixel-city_learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChuckCai.pixel-city-learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13AE879A20A4827000F9BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A914118BE8239A69E220BBAC /* Pods-pixel-city_learning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BCB2G5LZ6;
+				INFOPLIST_FILE = "pixel-city_learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ChuckCai.pixel-city-learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13AE878120A4827000F9BCA0 /* Build configuration list for PBXProject "pixel-city_learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AE879620A4827000F9BCA0 /* Debug */,
+				13AE879720A4827000F9BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AE879820A4827000F9BCA0 /* Build configuration list for PBXNativeTarget "pixel-city_learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AE879920A4827000F9BCA0 /* Debug */,
+				13AE879A20A4827000F9BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13AE877E20A4827000F9BCA0 /* Project object */;
+}
